@@ -8,7 +8,7 @@
 * @version			
 * @il_server		http://localhost:8080
 * @il_version		7.5 2021-12-15
-* @created			2022-03-10 07:41:53
+* @created			2022-03-10 07:57:57
 * @created_by		root user <ilias@yourserver.com>
 */
 // The language file starts beyond the HTML-comment below. DO NOT modify this line!
@@ -29,7 +29,7 @@ acc#:#acc_criterion_assignment_must_be_unique_insert#:#You cannot attach this cr
 acc#:#acc_criterion_assignment_must_be_unique_update#:#You cannot change the criterion as desired. There is already an identical criterion attached.
 acc#:#acc_crit_type_usr_language#:#Profile Language
 acc#:#acc_ctrl_cpt_txt#:#Accessibility Control Concept
-acc#:#acc_dashboard#:#Dashboard
+acc#:#acc_dashboard#:#仪表盘
 acc#:#acc_delete#:#删除
 acc#:#acc_deleted_documents_p#:#The documents have been deleted.
 acc#:#acc_deleted_documents_s#:#The document has been deleted.
@@ -110,7 +110,7 @@ administration#:#adm_imprint#:#版本说明(imprint)
 administration#:#adm_imprint_inactive#:#版本说明(imprint)是不活跃的，用户不能访问它。
 administration#:#adm_item_cmd_asynch#:#异步加载资源动作列表
 administration#:#adm_item_cmd_asynch_info#:#动作命令，例如，在知识库，被异步加载。这在常规情况下提高了性能，但稍微减慢了动作命令列表的下载。
-administration#:#adm_layout_and_navigation#:#Layout and Navigation
+administration#:#adm_layout_and_navigation#:#布局与导航设置
 administration#:#adm_locale#:#区域设置
 administration#:#adm_locale_info#:#区域设置会影响诸如列表的排序。例如nl_NL或de_DE。多个语言环境可以用逗号分隔。第一个有效的语言环境将会被使用。
 administration#:#adm_maintenance#:#系统设置
@@ -118,7 +118,7 @@ administration#:#adm_missing_entries#:#Missing Entries
 administration#:#adm_missing_entry_add#:#Add New Entry
 administration#:#adm_missing_entry_add_action#:#Add
 administration#:#adm_nr_statements#:#Statements数量
-administration#:#adm_personal_workspace#:#Personal Workspace
+administration#:#adm_personal_workspace#:#个人空间管理
 administration#:#adm_predefined_settings#:#预定义设置
 administration#:#adm_pub_section_domain_filter#:#Domain Filter
 administration#:#adm_pub_section_domain_filter_info#:#Domain filters granting anonymous access. Enter one ore more domains, which allow anonymous access. 
@@ -643,7 +643,7 @@ assessment#:#create_date#:#已创建
 assessment#:#create_gaps#:#创建间隔
 assessment#:#create_new#:#新创建
 assessment#:#customstyle#:#自定义样式
-assessment#:#dashboard_tab#:#Dashboard
+assessment#:#dashboard_tab#:#仪表盘
 assessment#:#definition#:#定义
 assessment#:#definitions#:#定义
 assessment#:#definition_image#:#图像定义
@@ -4576,10 +4576,10 @@ common#:#mm_personal_and_shared_r#:#个人及资源分享
 common#:#mm_personal_workspace#:#个人空间
 common#:#mm_portfolio#:#小组
 common#:#mm_repository#:#知识库
-common#:#mm_repo_tree_view#:#Tree View
+common#:#mm_repo_tree_view#:#目录
 common#:#mm_repo_tree_view_act#:#Activate Tree
 common#:#mm_repo_tree_view_deact#:#Deactivate Tree
-common#:#mm_rep_tree_view#:#Tree View
+common#:#mm_rep_tree_view#:#目录
 common#:#mm_skills#:#Competences
 common#:#mm_staff_list#:#Staff List
 common#:#mm_tags#:#标签
@@ -4876,8 +4876,8 @@ common#:#obj_crs_duplicate#:#复制课程
 common#:#obj_dbk#:#数字图书
 common#:#obj_dcl#:#数据采集
 common#:#obj_dcl_duplicate#:#复制数据集
-common#:#obj_dshs#:#Dashboard
-common#:#obj_dshs_desc#:#Dashboard settings
+common#:#obj_dshs#:#仪表盘
+common#:#obj_dshs_desc#:#仪表盘设置
 common#:#obj_ecss#:#ECS
 common#:#obj_ecss_desc#:#常规ECS设置
 common#:#obj_exc#:#练习
@@ -4891,7 +4891,7 @@ common#:#obj_feed#:#Web Feed
 common#:#obj_file#:#文件
 common#:#obj_file_duplicate#:#Duplicate File
 common#:#obj_file_inline#:#学习模块文件
-common#:#obj_fils#:#File Services
+common#:#obj_fils#:#文件服务
 common#:#obj_fils_desc#:#Configuration of File Service Settings.
 common#:#obj_fold#:#文件夹
 common#:#obj_fold_duplicate#:#Copy Folder
@@ -4922,7 +4922,7 @@ common#:#obj_lm_duplicate#:#复制学习模块
 common#:#obj_lng#:#语言
 common#:#obj_lngf#:#语言
 common#:#obj_lngf_desc#:#在此管理系统语言
-common#:#obj_logs#:#Logging
+common#:#obj_logs#:#系统日志
 common#:#obj_logs_desc#:#General Logging Settings
 common#:#obj_lrss#:#学习资源
 common#:#obj_lrss_desc#:#配置所有类型的学习模块。
@@ -4941,7 +4941,7 @@ common#:#obj_mcts#:#Mediacast
 common#:#obj_mcts_desc#:#mediacast 常规设置
 common#:#obj_mep#:#媒体池
 common#:#obj_mep_duplicate#:#复制媒体池
-common#:#obj_mme#:#Main Menu
+common#:#obj_mme#:#主菜单
 common#:#obj_mob#:#多媒体对象
 common#:#obj_mobs#:#媒体对象/池
 common#:#obj_mobs_desc#:#媒体对象和媒体池设置。
@@ -4955,7 +4955,7 @@ common#:#obj_objf_desc#:#管理ILIAS对象类型和对象权限。（只适用�
 common#:#obj_orgu#:#Organisational Unit
 common#:#obj_orgu_description#:#Creating and editing organisational structure
 common#:#obj_page#:#页面
-common#:#obj_pdfg#:#PDF Generation
+common#:#obj_pdfg#:#PDF 生成设置
 common#:#obj_pdfg_desc#:#Options for generation PDF documents
 common#:#obj_peac#:#Accordion
 common#:#obj_peadl#:#Advanced List
@@ -5044,7 +5044,7 @@ common#:#obj_svy#:#调查
 common#:#obj_svyf#:#调查
 common#:#obj_svyf_desc#:#调查工具的平台设置
 common#:#obj_svy_duplicate#:#复制调查
-common#:#obj_sysc#:#System Check
+common#:#obj_sysc#:#系统监测
 common#:#obj_sysc_desc#:#System Check and Repair Tools
 common#:#obj_tags#:#标签：
 common#:#obj_tags_desc#:#设定标签特性。
@@ -5059,7 +5059,7 @@ common#:#obj_tool_setting_custom_metadata#:#Custom Metadata
 common#:#obj_tool_setting_custom_metadata_info#:#If activated metadata can be configured.
 common#:#obj_tool_setting_news#:#显示新闻
 common#:#obj_tool_setting_news_info#:#The "News" block will be displayed inside the "Content" tab.
-common#:#obj_tos#:#Terms of Service
+common#:#obj_tos#:#服务协议
 common#:#obj_tos_desc#:#Terms of Service Settings
 common#:#obj_trac#:#用户跟踪
 common#:#obj_trac_desc#:#用户访问跟踪数据
@@ -5077,7 +5077,7 @@ common#:#obj_wbrs#:#Weblink
 common#:#obj_wbrs_desc#:#General settings for Web Links
 common#:#obj_webr#:#Web资源
 common#:#obj_webr_duplicate#:#复制Web资源
-common#:#obj_wfe#:#Workflow Engine
+common#:#obj_wfe#:#工作流引擎
 common#:#obj_wfld#:#文件夹
 common#:#obj_wiki#:#维基百科
 common#:#obj_wiki_duplicate#:#复制Wiki
@@ -7855,16 +7855,16 @@ dash#:#dash_added_to_favs#:#Recommendation has been added to personal favourites
 dash#:#dash_avail_presentation#:#Available Presentations
 dash#:#dash_avail_sortation#:#Available Sortations
 dash#:#dash_click_here#:#Click here
-dash#:#dash_dashboard#:#Dashboard
+dash#:#dash_dashboard#:#仪表盘
 dash#:#dash_default_presentation#:#Default Presentation
 dash#:#dash_default_sortation#:#Default Sortation
 dash#:#dash_enable_cal#:#Calendar
-dash#:#dash_enable_favourites#:#Favourites
+dash#:#dash_enable_favourites#:#收藏
 dash#:#dash_enable_mail#:#Mail
 dash#:#dash_enable_memberships#:#My Courses and Groups
 dash#:#dash_enable_news#:#News
 dash#:#dash_enable_task#:#Tasks
-dash#:#dash_favourites#:#Favourites
+dash#:#dash_favourites#:#收藏
 dash#:#dash_info_sure_remove_from_favs#:#Are you sure you want to remove the following objects from your Favourites?
 dash#:#dash_item_removed#:#Recommendation has been removed from the list.
 dash#:#dash_learningsequences#:#My Learning Sequences
@@ -9368,7 +9368,7 @@ file#:#upload_info#:#File
 file#:#upload_info_desc#:#Manage Uploads and Versions in Tab "Versions"
 file#:#versionname#:#Title
 file#:#version_uploaded#:#Version uploaded
-fils#:#file_services#:#File Services
+fils#:#file_services#:#文件服务
 fils#:#file_services_description#:#Configuration of File Service Settings.
 fils#:#file_suffix_custom_expl_negative#:#Prohibited File Suffixes
 fils#:#file_suffix_custom_expl_negative_info#:#Files with these suffixes won't be accepted for upload.
@@ -11647,7 +11647,7 @@ mme#:#field_url#:#URL
 mme#:#field_url_info#:#Link to the desired website, lead by http(s)://
 mme#:#flush#:#Remove Lost Items
 mme#:#item_must_be_always_active#:#Item must be active.
-mme#:#main#:#Main Menu
+mme#:#main#:#主菜单
 mme#:#mm_translation_lang#:#Language
 mme#:#mm_translation_trans#:#Translation
 mme#:#move_to_item#:#Move to Items
