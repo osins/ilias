@@ -8,7 +8,7 @@
 * @version			
 * @il_server		http://localhost:8080
 * @il_version		7.5 2021-12-15
-* @created			2022-03-10 07:57:57
+* @created			2022-03-10 08:05:17
 * @created_by		root user <ilias@yourserver.com>
 */
 // The language file starts beyond the HTML-comment below. DO NOT modify this line!
@@ -7863,7 +7863,7 @@ dash#:#dash_enable_favourites#:#收藏
 dash#:#dash_enable_mail#:#Mail
 dash#:#dash_enable_memberships#:#My Courses and Groups
 dash#:#dash_enable_news#:#News
-dash#:#dash_enable_task#:#Tasks
+dash#:#dash_enable_task#:#任务
 dash#:#dash_favourites#:#收藏
 dash#:#dash_info_sure_remove_from_favs#:#Are you sure you want to remove the following objects from your Favourites?
 dash#:#dash_item_removed#:#Recommendation has been removed from the list.
@@ -15745,7 +15745,7 @@ sysc#:#sysc_status_failed#:#Failed
 sysc#:#sysc_status_na#:#Not Executed
 sysc#:#sysc_status_running#:#Running
 sysc#:#sysc_tab_trash#:#Deleted Objects
-sysc#:#sysc_task_overview#:#Tasks
+sysc#:#sysc_task_overview#:#任务
 sysc#:#sysc_task_structure#:#Tree structure
 sysc#:#sysc_task_structure_desc#:#Analyzes and corrects the repository tree structure.
 sysc#:#sysc_task_tree_dump#:#List Tree
@@ -15792,7 +15792,7 @@ tagging#:#tag_remove_tags_of_obj_without_access#:#Remove Tag
 tagging#:#tag_some_obj_tagged_without_access#:#You do not have the permissions to access some of the tagged objects anymore. Should the tag be removed for these objects?
 tagging#:#tag_tags_deleted#:#Tag has been removed from inaccessible objects.
 task#:#task_deadline#:#End
-task#:#task_derived_tasks#:#Tasks
+task#:#task_derived_tasks#:#任务
 task#:#task_details#:#Details
 task#:#task_no_tasks#:#You do not have any open tasks.
 task#:#task_no_task_items#:#Es sind keine To-Dos für Sie vorhanden.
